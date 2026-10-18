@@ -1,0 +1,32 @@
+一、单选题
+1. 以下哪一种语言是 Flask 应用使用的主要编程语言？
+A. Python
+B. HTML
+C. SQL
+D. CSS
+答案：A
+解析：Flask 是 Python Web 框架。
+
+二、多选题
+2. 以下哪些属于浏览器端技术？
+A. HTML
+B. CSS
+C. JavaScript
+D. SQLAlchemy
+答案：A,B,C
+解析：HTML、CSS 和 JavaScript 用于构建浏览器页面。
+
+三、判断题
+3. 浏览器 localStorage 中的数据会自动同步到其他设备。
+答案：错误
+解析：localStorage 按浏览器和来源保存，不提供自动跨设备同步。
+
+四、填空题
+4. 本项目部署版默认监听的端口是____。
+答案：4000
+解析：Flask 启动入口和 Compose 容器端口均为 4000。
+
+五、简答题
+5. 本项目部署版使用什么格式的文件保存题库？
+答案：JSON
+解析：服务端通过 JSON 文件保存题库、题目、答题记录与练习进度。

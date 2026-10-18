@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  shuati:
+    build: .
+    container_name: shuati
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./data:/data
+      - ./static:/app/static
+    restart: unless-stopped

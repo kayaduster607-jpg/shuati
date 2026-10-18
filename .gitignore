@@ -1,0 +1,31 @@
+# Local account data and answer histories
+/data/
+**/users.json
+**/admin_setup.json
+**/userdata/
+
+# Never publish environment files or credentials
+.env
+.env.*
+**/.env*
+*.pem
+*.key
+
+# Development tools and generated artifacts
+.claude/
+.idea/
+.vscode/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+*.log
+*.tar
+*.tar.gz
+*.zip
+*.doc
+*.docx
+.DS_Store
+Thumbs.db
